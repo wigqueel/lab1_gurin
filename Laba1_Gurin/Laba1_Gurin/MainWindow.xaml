@@ -4,12 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Laba1_Gurin"
+        xmlns:viewModels="clr-namespace:Laba1_Gurin.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DatePicker x:Name="DatePicker1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,50,0,0" FirstDayOfWeek="Monday" Width="264"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="700,50,0,0" VerticalAlignment="Top" Width="82" Height="24" Click="Button_Click"/>
-        <Label Content="Введіть дату народження:" HorizontalAlignment="Left" Margin="300,24,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="300,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.493,-1.188" Height="20" Width="264"><Run/><LineBreak/><Run/></TextBlock>
-    </Grid>
+        <viewModels:UserControl1></viewModels:UserControl1>
+       </Grid>
 </Window>

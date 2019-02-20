@@ -20,22 +20,11 @@ namespace Laba1_Gurin
     /// </summary>
     public partial class MainWindow : Window
     {
+       
         public MainWindow()
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            string text = DatePicker1.SelectedDate.GetType().ToString();
-
-            TextBlock1.Text = text;
-        }
-        private void DatePicker_ValueChanged(object sender, EventArgs e)
-        {
-
-            string text = DatePicker1.SelectedDate.ToString();
-            TextBlock1.Text = text;
-        }
+        
     }
 }
